@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+<title>MotoGymkhana Compare Player Ver5</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h2>🏍 MotoGymkhana Compare Player</h2>
+
+<div id="status">
+準備完了
+</div>
+
+</header>
+
+<main>
+
+<section class="player">
+
+<h3>動画 A</h3>
+
+<video
+id="videoA"
+playsinline
+webkit-playsinline
+controls
+muted>
+</video>
+
+<input
+type="file"
+id="fileA"
+accept="video/*">
+
+<div class="time">
+
+<span id="timeA">
+0.00
+</span>
+
+</div>
+
+</section>
+
+<section class="player">
+
+<h3>動画 B</h3>
+
+<video
+id="videoB"
+playsinline
+webkit-playsinline
+controls
+muted>
+</video>
+
+<input
+type="file"
+id="fileB"
+accept="video/*">
+
+<div class="time">
+
+<span id="timeB">
+0.00
+</span>
+
+</div>
+
+</section>
+
+<section id="syncPanel">
+
+<h3>比較ポイント</h3>
+
+<div id="syncList">
+
+まだありません
+
+</div>
+
+<button id="addPoint">
+
+＋比較ポイント追加
+
+</button>
+
+</section>
+
+</main>
+
+<footer>
+
+<button id="playBtn">
+
+▶ 同時再生
+
+</button>
+
+<button id="pauseBtn">
+
+⏸ 停止
+
+</button>
+
+<button id="resetBtn">
+
+■ 最初へ
+
+</button>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
