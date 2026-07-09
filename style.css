@@ -1,0 +1,234 @@
+/* =====================================================
+   MotoGymkhana Compare Player Ver5
+   style.css
+===================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -webkit-tap-highlight-color:transparent;
+}
+
+body{
+    background:#111;
+    color:#fff;
+    font-family:-apple-system,BlinkMacSystemFont,
+    "Helvetica Neue",sans-serif;
+}
+
+header{
+    position:sticky;
+    top:0;
+    z-index:100;
+    background:#1d1d1d;
+    padding:12px;
+    text-align:center;
+    border-bottom:1px solid #333;
+}
+
+header h2{
+    font-size:22px;
+    margin-bottom:6px;
+}
+
+#status{
+    color:#00ff99;
+    font-size:16px;
+}
+
+main{
+    padding:10px;
+}
+
+.player{
+
+    background:#202020;
+
+    border-radius:12px;
+
+    padding:10px;
+
+    margin-bottom:12px;
+
+}
+
+.player h3{
+
+    margin-bottom:8px;
+
+    color:#ffd54f;
+
+}
+
+video{
+
+    width:100%;
+
+    background:#000;
+
+    border-radius:10px;
+
+    display:block;
+
+}
+
+input[type=file]{
+
+    width:100%;
+
+    margin-top:8px;
+
+}
+
+.time{
+
+    margin-top:8px;
+
+    text-align:right;
+
+    font-size:18px;
+
+    color:#00ffff;
+
+}
+
+#syncPanel{
+
+    background:#202020;
+
+    border-radius:12px;
+
+    padding:10px;
+
+    margin-bottom:90px;
+
+}
+
+#syncPanel h3{
+
+    margin-bottom:8px;
+
+}
+
+#syncList{
+
+    min-height:80px;
+
+    max-height:180px;
+
+    overflow-y:auto;
+
+    background:#111;
+
+    border:1px solid #333;
+
+    border-radius:8px;
+
+    padding:8px;
+
+    margin-bottom:10px;
+
+}
+
+.syncItem{
+
+    padding:8px;
+
+    border-bottom:1px solid #333;
+
+    font-size:15px;
+
+}
+
+.syncItem:last-child{
+
+    border-bottom:none;
+
+}
+
+button{
+
+    width:100%;
+
+    height:48px;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+    color:#fff;
+
+    background:#1976d2;
+
+}
+
+button:active{
+
+    transform:scale(.98);
+
+}
+
+footer{
+
+    position:fixed;
+
+    bottom:0;
+
+    left:0;
+
+    width:100%;
+
+    background:#1d1d1d;
+
+    padding:10px;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr 1fr;
+
+    gap:8px;
+
+    border-top:1px solid #333;
+
+}
+
+#playBtn{
+
+    background:#2e7d32;
+
+}
+
+#pauseBtn{
+
+    background:#ef6c00;
+
+}
+
+#resetBtn{
+
+    background:#c62828;
+
+}
+
+@media (max-width:600px){
+
+    header h2{
+
+        font-size:18px;
+
+    }
+
+    button{
+
+        font-size:15px;
+
+        height:46px;
+
+    }
+
+}
